@@ -1,5 +1,6 @@
 # L340_15IRH_Hackintosh
 Lenovo L340-15IRH Hackintosh Opencore
+
 *Please check Releases to select EFI according to your version of MacOS.*
 
 
