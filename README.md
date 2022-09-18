@@ -7,7 +7,7 @@
   | --- | --- | --- |
   | CPU | Intel Core i5 9300H | Works fine |
   | Graphics | Intel UHD Graphics 630 | Disabled GTX 1050 |
-  | Display | 15.6in FullHD | More beautiful than windows is undeniable |
+  | Display | 15.6in FullHD | More beautiful than Windows is undeniable |
   | RAM | 16GB DDR4 | Upgraded from 8GB DDR4 |
   | Wifi| BCM943602CS | Default Wifi never work. |
   | NVME SSD| Samsung SSD 970 EVO Plus 250GB | No SSD default|
