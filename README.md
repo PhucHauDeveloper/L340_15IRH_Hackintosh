@@ -1,8 +1,6 @@
-# L340_15IRH_Hackintosh
-Lenovo L340-15IRH Hackintosh Opencore.
+# Lenovo L340-15IRH Hackintosh Opencore.
 
 *Please check Releases to select EFI according to your version of MacOS.*
-
 
 ## Laptop configuration:
   | Type | Name | Note |
@@ -60,18 +58,18 @@ Lenovo L340-15IRH Hackintosh Opencore.
   
 ## Note:
   
-  *Wireless:*
+  *Wireless: *
   Don't try to make the original WiFi card work; it's impossible. Buy a Realmac card for the best experience
   
-  *dGPU:*
+  *dGPU: *
   It may actually work, but MacOS doesn't natively support it and never will in the future(I wish it had support for MUX switching, or at least there was a way). If you want to see it work with dGPU 700Mb of VRAM and iGPU 7Mb of VRAM and "enjoy" the lag, try this:
   
   [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher)
      
-  *Trackpad:*
+  *Trackpad: *
   If there are a few reboots or wakes, then the trackpad will not work. Usually, after using it for a while, it will not error, so if you encounter it, don't worry. Just close the laptop, make a cup of coffee, and go back to it. It's fixed, it's magic.
   
-  *HiDPI*
+  *HiDPI: *
     You can use HiDPI to see everything more clearly. There are two commands below:
   ```
       sudo defaults write /Library/Preferences/com.apple.windowserver.plist DisplayResolutionEnabled -bool true
@@ -81,7 +79,7 @@ Lenovo L340-15IRH Hackintosh Opencore.
       bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
   ```
   
-  *Hibernation*
+  *Hibernation: *
   You should use hibernation instead of sleep because it will save more battery life. You just need to run the following command. The rest is fixed:
    ```
       sudo pmset hibernatemode 25
