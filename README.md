@@ -11,7 +11,7 @@ Lenovo L340-15IRH Hackintosh Opencore
 | Graphics | Intel UHD Graphics 630 | Disabled GTX 1050 |
 | Display | 15.6in FullHD | More beautiful than windows is undeniable |
 | RAM | 16GB DDR4 | Upgraded from 8GB DDR4 |
-| Wifi| BCM2CS2 - DW1560 | Default Wifi never work. |
+| Wifi| BCM943602CS | Default Wifi never work. |
 | NVME SSD| Samsung SSD 970 EVO Plus 250GB | No SSD default|
 | SATA Disk | ST1000LM024 1TB | I save the data of 3 operating systems on this hard drive |
 | USB | 2 USB 3.1 + 1 USB 3.1 Type C | Works fine |
