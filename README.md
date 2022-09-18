@@ -44,7 +44,7 @@
   
 ## Not tested:
 
-  Nope :)))
+  Buy Macbook :)))
 
 ## Not working:
 
