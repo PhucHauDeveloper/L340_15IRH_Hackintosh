@@ -1,10 +1,10 @@
-#L340_15IRH_Hackintosh
+# L340_15IRH_Hackintosh
 Lenovo L340-15IRH Hackintosh Opencore.
 
 *Please check Releases to select EFI according to your version of MacOS.*
 
 
-##Laptop configuration:
+## Laptop configuration:
   | Type | Name | Note |
   | --- | --- | --- |
   | CPU | Intel Core i5 9300H | Works fine |
@@ -21,7 +21,7 @@ Lenovo L340-15IRH Hackintosh Opencore.
   
 
 
-##Working:
+## Working:
 
   CPU (get all kernels and threads).
   
@@ -44,11 +44,11 @@ Lenovo L340-15IRH Hackintosh Opencore.
   
   Camera, USB, iSevice(iMess, Facetime, Airplay, Sidecar, Handoff, AirDrop, Universal Clipboard), etc.
   
-##Not tested:
+## Not tested:
 
   Nope :)))
 
-##Not working:
+## Not working:
 
   dGPU (can make it work, but it will crash and cause the iGPU (which doesn't have a MUX switch) to fail).
   
@@ -58,7 +58,7 @@ Lenovo L340-15IRH Hackintosh Opencore.
   
   PrtSC key not work, Fn + F5 and PrtSc keys will make your mouse freeze for a few seconds.
   
-##Note:
+## Note:
   
   *Wireless:*
   Don't try to make the original WiFi card work; it's impossible. Buy a Realmac card for the best experience
@@ -87,7 +87,7 @@ Lenovo L340-15IRH Hackintosh Opencore.
       sudo pmset hibernatemode 25
   ```
   
-##Contact me:
+## Contact me:
 
   [Facebook](https://www.facebook.com/phuchau.developer@gmail.com)
   
