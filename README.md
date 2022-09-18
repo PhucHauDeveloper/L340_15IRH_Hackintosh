@@ -11,7 +11,7 @@
   | RAM | 16GB DDR4 | Upgraded from 8GB DDR4 |
   | Wifi| BCM943602CS | Default Wifi never work. |
   | NVME SSD| Samsung SSD 970 EVO Plus 250GB | No SSD default|
-  | SATA Disk | ST1000LM024 1TB | I save the data of 3 operating systems on this hard drive |
+  | SATA HDD | ST1000LM024 1TB | I save the data for 3 operating systems on this hard drive |
   | USB | 2 USB 3.1 + 1 USB 3.1 Type C | Works fine |
   | Trackpad | Synaptics | Works fine |
   | Audio | Realtek ALC 257 | Works fine layout 18 |
@@ -34,11 +34,11 @@
   
   Bluetooth (works flawlessly, of course).
   
-  Ethernet, USB tethering (works fine)
+  Ethernet, USB tethering (works fine).
   
-  Audio (works fine, layout 18)
+  Audio (works fine, layout 18).
   
-  Battery level (works fine)
+  Battery (Although the current device battery is quite weak (3429 mAh), it still lasts 2 hours thanks to the CPUFriend).
   
   Camera, USB, iSevice(iMess, Facetime, Airplay, Sidecar, Handoff, AirDrop, Universal Clipboard), etc.
   
