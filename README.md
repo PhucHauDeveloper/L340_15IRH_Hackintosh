@@ -5,17 +5,17 @@
 ## Laptop configuration:
   | Type | Name | Note |
   | --- | --- | --- |
-  | CPU | Intel Core i5 9300H | Works fine |
+  | CPU | Intel Core i5 9300H | Works flawlessly |
   | Graphics | Intel UHD Graphics 630 | Disabled GTX 1050 |
-  | Display | 15.6in FullHD | More beautiful than Windows is undeniable |
+  | Display | 15.6in LCD FullHD | More beautiful than Windows is undeniable |
   | RAM | 16GB DDR4 | Upgraded from 8GB DDR4 |
   | Wifi| BCM943602CS | Default Wifi never work. |
-  | NVME SSD| Samsung SSD 970 EVO Plus 250GB | No SSD default|
+  | NVME SSD| Samsung SSD 970 EVO Plus 250GB | No NVME SSD default|
   | SATA HDD | ST1000LM024 1TB | I save the data for 3 operating systems on this hard drive |
-  | USB | 2 USB 3.1 + 1 USB 3.1 Type C | Works fine |
-  | Trackpad | Synaptics | Works fine |
+  | USB | 2 USB 3.1 + 1 USB 3.1 Type C | Works perfectly |
+  | Trackpad | Synaptics | Works well |
   | Audio | Realtek ALC 257 | Works fine layout 18 |
-  | OS version| 13.0 Beta (22A5342f) | Works fine |
+  | OS version| 13.0 Beta (22A5342f) | The latest version up to now |
   
 
 
@@ -34,7 +34,7 @@
   
   Bluetooth (works flawlessly, of course).
   
-  Ethernet, USB tethering (works fine).
+  Ethernet, USB tethering (works well).
   
   Audio (works fine, layout 18).
   
