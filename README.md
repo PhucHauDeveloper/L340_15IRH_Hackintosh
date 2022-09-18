@@ -5,16 +5,16 @@
 ## Laptop configuration:
   | Type | Name | Note |
   | --- | --- | --- |
-  | CPU | Intel Core i5 9300H | Works flawlessly |
-  | Graphics | Intel UHD Graphics 630 | Disabled GTX 1050 |
-  | Display | 15.6in LCD FullHD | More beautiful than Windows is undeniable |
+  | CPU | Intel Core i5 9300H | Worked perfectly |
+  | Graphics | Intel UHD Graphics 630 | Must disable GTX 1050 |
+  | Display | 15.6in LCD FullHD | Undeniably more beautiful than Windows |
   | RAM | 16GB DDR4 | Upgraded from 8GB DDR4 |
-  | Wifi| BCM943602CS | Default Wifi never work. |
-  | NVME SSD| Samsung SSD 970 EVO Plus 250GB | No NVME SSD default|
-  | SATA HDD | ST1000LM024 1TB | I save the data for 3 operating systems on this hard drive |
-  | USB | 2 USB 3.1 + 1 USB 3.1 Type C | Works perfectly |
-  | Trackpad | Synaptics | Works well |
-  | Audio | Realtek ALC 257 | Works fine layout 18 |
+  | Wifi| BCM943602CS | Default Wifi Card won't work. |
+  | NVME SSD| Samsung SSD 970 EVO Plus 250GB | No default NVME SSD default |
+  | SATA HDD | ST1000LM024 1TB | Used for saving 3 Operating Systems |
+  | USB | 2 USB 3.1 + 1 USB 3.1 Type C | Worked perfectly |
+  | Trackpad | Synaptics | Worked well |
+  | Audio | Realtek ALC 257 | Worked fine with layout 18 |
   | OS version| 13.0 Beta (22A5342f) | The latest version up to now |
   
 
@@ -23,43 +23,43 @@
 
   CPU (get all kernels and threads).
   
-  iGPU (works fine with acceleration; for fun and to appear powerful, I changed the ID to Iris Plus 655; increased the VRAM to 4095 MB; and renamed it to RTX 3090).
+  iGPU (works fine with acceleration; I changed the ID to Iris Plus 655 for fun; increased the VRAM to 4095 MB; and renamed it to RTX 3090 to make me look rich).
   
-  Screen Brightness, NightShift (works fine, and is undeniably more beautiful than Windows).
+  Screen Brightness, NightShift (worked fine, and is undeniably more beautiful than Windows).
   
-  Trackpad/Keyboard (Force click and gesture works fine)
+  Trackpad/Keyboard (Force-click and gesture works fine)
   (Controls for volume (Fn + F1/F2/F3), Brightness (Fn + K/P), Control media (Play/Pause/Next) and Hide mouse(Fn + Esc) are all included).
   
-  Wi-Fi (It works perfectly (of course), receives both 2.4GHz and 5GHz, and supports 802.11 a/b/g/n/ac).
+  Wi-Fi (It worked perfectly, received both 2.4GHz and 5GHz, and supports for 802.11 a/b/g/n/ac).
   
-  Bluetooth (works flawlessly, of course).
+  Bluetooth (works flawlessly).
   
-  Ethernet, USB tethering (works well).
+  Ethernet, USB tethering (worked well).
   
-  Audio (works fine, layout 18).
+  Audio (worked fine, layout 18).
   
-  Battery (Although the current device battery is quite weak (3429 mAh), it still lasts 2 hours thanks to the CPUFriend).
+  Battery (it can last 2 hours thanks to CPUFriend, with a weak battery (3429 mAh) ).
   
   Camera, USB, iSevice(iMess, Facetime, Airplay, Sidecar, Handoff, AirDrop, Universal Clipboard), etc.
   
 ## Not tested:
 
-  Buy Macbook :)))
+  Actually afford a Macbook ( ͡° ͜ʖ ͡°)
 
 ## Not working:
 
-  dGPU (can make it work, but it will crash and cause the iGPU (which doesn't have a MUX switch) to fail).
+  dGPU (it can work, but it will crash and cause the iGPU (which doesn't have a MUX switch) to fail).
   
-  HDMI (You can't use HDMI because it's connected to the GTX 1050, which was disabled in DSDT; if possible, I'll fix it).
+  HDMI (It's connected to the GTX 1050, which was disabled in DSDT; if possible, I'll fix it).
   
-  Led status of the NumLock (I'm not sure why, but please contact me so I can fix it).
+  Led status of the NumLock (Not sure why, but please contact me if you know fix it).
   
-  PrtSC key not work, Fn + F5 and PrtSc keys will make your mouse freeze for a few seconds.
+  PrtScr key not work, Fn + F5 and PrtScr keys will make your mouse freeze for a few seconds.
   
 ## Note:
   
   *Wireless: *
-  Don't try to make the original WiFi card work; it's impossible. Buy a Realmac card for the best experience
+  Original WiFi card will never work, it's basically impossible. Recommend buying a Realmac card
   
   *dGPU: *
   It may actually work, but MacOS doesn't natively support it and never will in the future(I wish it had support for MUX switching, or at least there was a way). If you want to see it work with dGPU 700Mb of VRAM and iGPU 7Mb of VRAM and "enjoy" the lag, try this:
@@ -67,7 +67,7 @@
   [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher)
      
   *Trackpad: *
-  If there are a few reboots or wakes, then the trackpad will not work. Usually, after using it for a while, it will not error, so if you encounter it, don't worry. Just close the laptop, make a cup of coffee, and go back to it. It's fixed, it's magic.
+  If there are a few reboots or wakes, the trackpad will not work. Usually after using it for a while, it won't have any error. So if you encounter it, don't worry, just close your laptop, make coffee, and go back. It should be fixed, it's magic.
   
   *HiDPI: *
     You can use HiDPI to see everything more clearly. There are two commands below:
@@ -80,7 +80,7 @@
   ```
   
   *Hibernation: *
-  You should use hibernation instead of sleep because it will save more battery life. You just need to run the following command. The rest is fixed:
+  You should use Hibernation mode instead of Sleep mode since it saves more battery. You just need to run the following command, the rest is fixed:
    ```
       sudo pmset hibernatemode 25
   ```
