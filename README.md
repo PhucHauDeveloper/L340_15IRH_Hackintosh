@@ -72,12 +72,10 @@ Lenovo L340-15IRH Hackintosh Opencore.
   If there are a few reboots or wakes, then the trackpad will not work. Usually, after using it for a while, it will not error, so if you encounter it, don't worry. Just close the laptop, make a cup of coffee, and go back to it. It's fixed, it's magic.
   
   *HiDPI*
-    You can use HiDPI to see everything more clearly. There are 2 ways: first with the command below:
+    You can use HiDPI to see everything more clearly. There are two commands below:
   ```
       sudo defaults write /Library/Preferences/com.apple.windowserver.plist DisplayResolutionEnabled -bool true
   ```
-  
-    or(recommended)
     
   ```
       bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
