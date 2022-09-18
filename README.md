@@ -76,7 +76,9 @@ Lenovo L340-15IRH Hackintosh Opencore.
   ```
       sudo defaults write /Library/Preferences/com.apple.windowserver.plist DisplayResolutionEnabled -bool true
   ```
+  
     or(recommended)
+    
   ```
       bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
   ```
