@@ -89,6 +89,6 @@ Lenovo L340-15IRH Hackintosh Opencore.
   
 ## Contact me:
 
-  [Facebook](https://www.facebook.com/phuchau.developer@gmail.com)
+  [Facebook](https://www.facebook.com/phuchau.developer)
   
   [Gmail](MAILTO:phuchau.developer@gmail.com)
