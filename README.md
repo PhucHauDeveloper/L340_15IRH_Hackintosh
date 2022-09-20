@@ -11,7 +11,7 @@
   | RAM | 16GB DDR4 | Upgraded from 8GB DDR4 |
   | Wifi| BCM943602CS | Default Wifi Card won't work. |
   | NVME SSD| Samsung SSD 970 EVO Plus 250GB | No default NVME SSD default |
-  | SATA HDD | ST1000LM024 1TB | Used for saving 3 Operating Systems |
+  | SATA HDD | ST1000LM024 1TB | Used for saving 3 Operating Systems data |
   | USB | 2 USB 3.1 + 1 USB 3.1 Type C | Worked perfectly |
   | Trackpad | Synaptics | Worked well |
   | Audio | Realtek ALC 257 | Worked fine with layout 18 |
@@ -44,7 +44,7 @@
   
 ## Not tested:
 
-  Actually afford a Macbook ( ͡° ͜ʖ ͡°)
+  Buy Macbook, actually afford a Macbook ( ͡° ͜ʖ ͡°)
 
 ## Not working:
 
