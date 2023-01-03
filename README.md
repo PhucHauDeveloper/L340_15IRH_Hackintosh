@@ -92,6 +92,7 @@
   ```
   *SecureBoot:*
   Now you can use it through new update, supported by Super UEFIinSecureBoot Disk. First you should open secureboot in BIOS, boot as usual, if it asks for  signature, press **OK** and choose **Enroll cert from file** menu option. Select Phuchau.cer on **EFI/BOOT** and confirm certificate enrolling, at the end you select **Yes** and then **Reboot**.
+  
   If you update OpenCore to a newer version and you see I don't update, you can update OpenCore and still keep secureboot by the following: the new OpenCore **BOOTX64.EFI** file you rename it to **grubx64_real.efi** (overwrite the old file), then you rename the backup file  **BOOTX64.EFI.SB** and rename it back to **BOOTX64.EFI** (overwrite the old file), done.
 
   
