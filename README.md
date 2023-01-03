@@ -85,6 +85,15 @@
       bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
   ```
   
+    If you use HiDPI, I recommend you to use anti-aliasing to reduce font blur, run the following 2 commands and reboot
+  ```
+  defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
+  ```
+  
+  ```
+  defaults -currentHost write -globalDomain AppleFontSmoothing -int 3
+  ```
+  
   ***Hibernation:***
   You should use Hibernation mode instead of Sleep mode since it saves more battery. You just need to run the following command, the rest is fixed:
    ```
