@@ -15,7 +15,7 @@
   | USB | 2 USB 3.1 + 1 USB 3.1 Type C | Worked perfectly |
   | Trackpad | Synaptics | Worked well |
   | Audio | Realtek ALC 257 | Worked fine with layout 18 |
-  | OS version| 13.0 Beta (22A5342f) | The latest version up to now |
+  | OS version| 13.1 | The latest version up to now |
   
 
 
@@ -23,7 +23,7 @@
 
   CPU (get all kernels and threads).
   
-  iGPU (works fine with acceleration; I changed the ID to Iris Plus 655 for fun; increased the VRAM to 4095 MB; and renamed it to RTX 3090 to make me look rich).
+  iGPU (works fine with acceleration; I changed the ID to Iris Plus 655 for fun; increased the VRAM to 4095 MB; and renamed it to RTX 3090 to make it look stronger :)) ).
   
   Screen Brightness, NightShift (worked fine, and is undeniably more beautiful than Windows).
   
@@ -38,7 +38,11 @@
   
   Audio (worked fine, layout 18).
   
-  Battery (it can last 2 hours thanks to CPUFriend, with a weak battery (3429 mAh) ).
+  Battery (Can use 2 to 3 hours depending on the task, thanks to CPUFriend, with a weak battery (3342 mAh) ).
+  
+  Disk (Samsung nvme 970 should turn off TRIM to avoid hard drive error every time it boots)
+  
+  SecureBoot (work with 1s delay using Super UEFIinSecureBoot Disk)
   
   Camera, USB, iSevice(iMess, Facetime, Airplay, Sidecar, Handoff, AirDrop, Universal Clipboard), etc.
   
@@ -53,6 +57,8 @@
   HDMI (It's connected to the GTX 1050, which was disabled in DSDT; if possible, I'll fix it).
   
   Led status of the NumLock (Not sure why, but please contact me if you know fix it).
+  
+  --Secure boot-- now you can use it through new update
   
   PrtScr key not work, Fn + F5 and PrtScr keys will make your mouse freeze for a few seconds.
   
@@ -84,6 +90,11 @@
    ```
       sudo pmset hibernatemode 25
   ```
+  *SecureBoot: *
+  Now you can use it through new update, supported by Super UEFIinSecureBoot Dik. First you should open secureboot in BIOS, boot as usual, if it asks for       
+  signature, press OK and choose "Enroll cert from file" menu option. Select Phuchau.cer on EFI/BOOT and confirm certificate enrolling, at the end you 
+  select Yes and then Reboot.
+
   
 ## Contact me:
 
