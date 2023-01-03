@@ -58,7 +58,7 @@
   
   Led status of the NumLock (Not sure why, but please contact me if you know fix it).
   
-  --Secure boot-- now you can use it through new update
+  ~~Secure boot~~ now you can use it through new update
   
   PrtScr key not work, Fn + F5 and PrtScr keys will make your mouse freeze for a few seconds.
   
