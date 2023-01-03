@@ -3,7 +3,7 @@
 *Please check Releases to select EFI according to your version of MacOS.*
 
 ## Laptop configuration:
-  | Type | Name | Note |
+  | **Type** | **Name** | **Note** |
   | --- | --- | --- |
   | CPU | Intel Core i5 9300H | Worked perfectly |
   | Graphics | Intel UHD Graphics 630 | Must disable GTX 1050 |
@@ -21,30 +21,30 @@
 
 ## Working:
 
-  CPU (get all kernels and threads).
+  **CPU** (get all kernels and threads, the lowest clock speed is lowered to 0.8Ghz).
   
-  iGPU (works fine with acceleration; I changed the ID to Iris Plus 655 for fun; increased the VRAM to 4095 MB; and renamed it to RTX 3090 to make it look stronger :)) ).
+  **iGPU** (works fine with acceleration; I changed the ID to Iris Plus 655 for fun; increased the VRAM to 4095 MB; and renamed it to RTX 3090 to make it look stronger :)) ).
   
-  Screen Brightness, NightShift (worked fine, and is undeniably more beautiful than Windows).
+  **Screen** (Brightness, NightShift worked fine, and is undeniably more beautiful than Windows).
   
-  Trackpad/Keyboard (Force-click and gesture works fine)
+  **Trackpad/Keyboard** (Force-click and gesture works fine)
   (Controls for volume (Fn + F1/F2/F3), Brightness (Fn + K/P), Control media (Play/Pause/Next) and Hide mouse(Fn + Esc) are all included).
   
-  Wi-Fi (It worked perfectly, received both 2.4GHz and 5GHz, and supports for 802.11 a/b/g/n/ac).
+  **Wi-Fi** (It worked perfectly, received both 2.4GHz and 5GHz, and supports for 802.11 a/b/g/n/ac).
   
-  Bluetooth (works flawlessly).
+  **Bluetooth** (works flawlessly).
   
-  Ethernet, USB tethering (worked well).
+  **Ethernet, USB tethering** (worked well).
   
-  Audio (worked fine, layout 18).
+  **Audio** (worked fine, layout 18).
   
-  Battery (Can use 2 to 3 hours depending on the task, thanks to CPUFriend, with a weak battery (3342 mAh) ).
+  **Battery** (Can use 2 to 3 hours depending on the task, with a weak battery (3342 mAh) ).
   
-  Disk (Samsung nvme 970 should turn off TRIM to avoid hard drive error every time it boots)
+  **Disk** (Samsung nvme 970 should turn off TRIM to avoid hard drive error every time it boots)
   
-  SecureBoot (work with 1s delay using Super UEFIinSecureBoot Disk)
+  **SecureBoot** (work with 1s delay using Super UEFIinSecureBoot Disk)
   
-  Camera, USB, iSevice(iMess, Facetime, Airplay, Sidecar, Handoff, AirDrop, Universal Clipboard), etc.
+  **Camera, USB, iSevice(iMess, Facetime, Airplay, Sidecar, Handoff, AirDrop, Universal Clipboard), etc.**
   
 ## Not tested:
 
@@ -52,30 +52,30 @@
 
 ## Not working:
 
-  dGPU (it can work, but it will crash and cause the iGPU (which doesn't have a MUX switch) to fail).
+  **dGPU** (it can work, but it will crash and cause the iGPU (which doesn't have a MUX switch) to fail).
   
-  HDMI (It's connected to the GTX 1050, which was disabled in DSDT; if possible, I'll fix it).
+  **HDMI** (It's connected to the GTX 1050, which was disabled in DSDT; if possible, I'll fix it).
   
-  Led status of the NumLock (Not sure why, but please contact me if you know fix it).
+  **Led status of the NumLock** (Not sure why, but please contact me if you know fix it).
   
-  ~~Secure boot~~ Now you can use it through new update
+  **~~Secure boot~~** Now you can use it through new update
   
-  PrtScr key not work, Fn + F5 and PrtScr keys will make your mouse freeze for a few seconds.
+  **PrtScr key** not work, Fn + F5 and PrtScr keys will make your mouse freeze for a few seconds.
   
 ## Note:
   
-  *Wireless:*
+  ***Wireless:***
   Original WiFi card will never work, it's basically impossible. Recommend buying a Realmac card
   
-  *dGPU:*
+  ***dGPU:***
   It may actually work, but MacOS doesn't natively support it and never will in the future(I wish it had support for MUX switching, or at least there was a way). If you want to see it work with dGPU 700Mb of VRAM and iGPU 7Mb of VRAM and "enjoy" the lag, try this:
   
   [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher)
      
-  *Trackpad:*
+  ***Trackpad:***
   If there are a few reboots or wakes, the trackpad will not work. Usually after using it for a while, it won't have any error. So if you encounter it, don't worry, just close your laptop, make coffee, and go back. It should be fixed, it's magic.
   
-  *HiDPI:*
+  ***HiDPI:***
     You can use HiDPI to see everything more clearly. There are two commands below:
   ```
       sudo defaults write /Library/Preferences/com.apple.windowserver.plist DisplayResolutionEnabled -bool true
@@ -85,12 +85,12 @@
       bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
   ```
   
-  *Hibernation:*
+  ***Hibernation:***
   You should use Hibernation mode instead of Sleep mode since it saves more battery. You just need to run the following command, the rest is fixed:
    ```
       sudo pmset hibernatemode 25
   ```
-  *SecureBoot:*
+  ***SecureBoot:***
   Now you can use it through new update, supported by Super UEFIinSecureBoot Disk. First you should open secureboot in BIOS, boot as usual, if it asks for  signature, press **OK** and choose **Enroll cert from file** menu option. Select Phuchau.cer on **EFI/BOOT** and confirm certificate enrolling, at the end you select **Yes** and then **Reboot**.
   
   If you update OpenCore to a newer version and you see I don't update, you can update OpenCore and still keep secureboot by the following: the new OpenCore **BOOTX64.EFI** file you rename it to **grubx64_real.efi** (overwrite the old file), then you rename the backup file  **BOOTX64.EFI.SB** and rename it back to **BOOTX64.EFI** (overwrite the old file), done.
