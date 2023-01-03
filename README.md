@@ -91,7 +91,7 @@
       sudo pmset hibernatemode 25
   ```
   *SecureBoot:*
-  Now you can use it through new update, supported by Super UEFIinSecureBoot Dik. First you should open secureboot in BIOS, boot as usual, if it asks for  signature, press OK and choose "Enroll cert from file" menu option. Select Phuchau.cer on EFI/BOOT and confirm certificate enrolling, at the end you select Yes and then Reboot.
+  Now you can use it through new update, supported by Super UEFIinSecureBoot Disk. First you should open secureboot in BIOS, boot as usual, if it asks for  signature, press **OK** and choose **Enroll cert from file** menu option. Select Phuchau.cer on **EFI/BOOT** and confirm certificate enrolling, at the end you select **Yes** and then **Reboot**.
 
   
 ## Contact me:
