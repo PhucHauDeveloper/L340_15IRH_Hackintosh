@@ -88,6 +88,7 @@ I changed to new laptop, Lenovo G14 GA402RK. This will no longer update in futur
   ```
   
     If you use HiDPI, I recommend you to use anti-aliasing to reduce font blur, run the following 2 commands and reboot
+    
   ```
   defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
   ```
