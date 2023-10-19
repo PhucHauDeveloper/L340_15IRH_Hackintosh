@@ -87,7 +87,8 @@ I changed to new laptop, Lenovo G14 GA402RK. This will no longer update in futur
       bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
   ```
   
-    If you use HiDPI, I recommend you to use anti-aliasing to reduce font blur, run the following 2 commands and reboot
+   If you use HiDPI, I recommend you to use anti-aliasing to reduce font blur, run the following 2 commands and reboot
+    
     
   ```
   defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
