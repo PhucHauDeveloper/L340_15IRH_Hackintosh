@@ -1,3 +1,5 @@
+I changed to new laptop, Lenovo G14 GA402RK. This will no longer update in future but i believe just update kext and Opencore it will work in MacOS Sonoma, goodluck!
+
 # Lenovo L340-15IRH Hackintosh Opencore.
 
 *Please check Releases to select EFI according to your version of MacOS.*
